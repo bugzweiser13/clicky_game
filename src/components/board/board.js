@@ -23,13 +23,13 @@ const initialChars = [
         clicked: false
     },
     {
-        name: 'Bo Butler',
-        img: 'img/250x180/bo-bulter.jpg',
+        name: 'Bo Butner',
+        img: 'img/250x180/bo-butner.jpg',
         clicked: false
     },
     {
         name: 'Brittany Force',
-        img: 'img/250x180/brittany Force.jpg',
+        img: 'img/250x180/brittany-force.jpg',
         clicked: false
     },
     {
@@ -48,43 +48,43 @@ const initialChars = [
         clicked: false
     },
     {
-        name: 'Draymond Green',
-        img: 'img/250x180/draymond-green.png',
+        name: 'Greg Anderson',
+        img: 'img/250x180/greg-anderson.jpg',
         clicked: false
     },
     {
-        name: 'James Harden',
-        img: 'img/250x180/james-harden.png',
+        name: 'Jack Beckman',
+        img: 'img/250x180/jack-beckman.jpg',
         clicked: false
     },
     {
-        name: 'Jeremy Lin',
-        img: 'img/250x180/jeremy-lin.png',
+        name: 'John Force',
+        img: 'img/250x180/john-force.jpg',
         clicked: false
     },
     {
-        name: 'Kevin Durant',
-        img: 'img/250x180/kevin-durant.png',
+        name: 'Leah Pritchett',
+        img: 'img/250x180/leah-pritchett.jpg',
         clicked: false
     },
     {
-        name: 'Kyrie Irving',
-        img: 'img/250x180/kyrie-irving.png',
+        name: 'Matt Hagan',
+        img: 'img/250x180/matt-hagan.jpg',
         clicked: false
     },
     {
-        name: 'Lebron James',
-        img: 'img/250x180/lebron-james.png',
+        name: 'Robert Hight',
+        img: 'img/250x180/robert-hight.jpg',
         clicked: false
     },
     {
-        name: 'Lonzo-Ball',
-        img: 'img/250x180/lonzo-ball.png',
+        name: 'Ron Caps',
+        img: 'img/250x180/ron-caps.jpg',
         clicked: false
     },
     {
-        name: 'Russell Westbrook',
-        img: 'img/250x180/russell-westbrook.png',
+        name: 'Steve Torrance',
+        img: 'img/250x180/steve-torrance.jpg',
         clicked: false
     }
 ]
@@ -136,7 +136,7 @@ export default class Board extends Component {
                     length={'30px'}
                     direction={'bottom'}
                     delay={'1s'}>
-                    <h4>Try to click on every NBA Player once. Once you click a player the grid will shuffle.<br/>Try not to click the same NBA Player twice or the game will start all over!</h4>
+                    <h4>Try to click on every NHRA Driver once. When a driver is clicked, the grid will shuffle.<br/>Try not to click the same NHRA Driver twice or the game will restart!</h4>
                 </FadeIn>
                 <FadeIn 
                     in={true}
